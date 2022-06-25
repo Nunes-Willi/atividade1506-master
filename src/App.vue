@@ -80,7 +80,7 @@ main {
     width: 70px;
     border: 1px solid #000000;
     background-color: gray;
-    margin-left: 500px;
+    margin-left: 350px;
 }
 
 
