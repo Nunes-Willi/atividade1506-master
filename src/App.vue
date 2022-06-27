@@ -33,55 +33,7 @@
 <style>
 @import "@/assets/style.css";
 @import "@/assets/style.css";
-#app {
-  max-width: 1920px;
-  margin: auto;
-  height: 100vh;
-  font-weight: normal;
-}
 
-
-
-header .menu-superior{
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-}
-
-.pesquisar{
-  padding-left: 20px;
-  background-color: #d9d9d9;
-}
-.pesquisar input{
-  padding: 0 250px;
-}
-
-header,
-footer {
-  height: 15%;
-  display: flex;
-  align-items: center;
-  border: 1px black solid;
-  background-color: #d9d9d9;
-  
-}
-main {
-  height: 70%;
-  background-color: #d9d9d9;
-}
-.dropdown {
-  display: flex;
-  padding-left: 20px;
-}
-#bola {
-    border-radius: 50%;
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    border: 1px solid #000000;
-    background-color: gray;
-    margin-left: 350px;
-}
 
 
 </style>

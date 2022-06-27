@@ -1,3 +1,126 @@
+:root{
+  --cor1: #F4C0E9;
+  --cor2:#C4B8FF;
+  --cor3: #9BF8FB;
+  --cor4: #9BFFC9;
+  --cor5: #FDFCAB;
+}
+
+#app {
+  max-width: 1920px;
+  margin: auto;
+  height: 100vh;
+  font-weight: normal;
+}
+
+header .menu-superior{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.pesquisar{
+  padding-left: 20px;
+  background-color: var(--cor4);
+}
+.pesquisar input{
+  padding: 0 250px;
+}
+
+header,
+footer {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  border: 1px black solid;
+  background-color: var(--cor4);
+  
+}
+main {
+  height: 70%;
+  background-color: var(--cor4);
+}
+.dropdown {
+  display: flex;
+  padding-left: 20px;
+}
+#bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #000000;
+    background-color: gray;
+    margin-left: 350px;
+}
+
+.blocos-superior{
+  padding: 2px;
+}
+.blocos-superior .bloco1{
+  display: flex;
+  float: left;
+  width: 500px;
+  height: 170px;
+  border:3px solid #fed365;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: white;
+}
+
+.blocos-superior .bloco2{
+  display: flex;
+  float: right;
+  width: 500px;
+  height: 170px;
+  border:3px solid #fed365;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 100px;
+  background-color: white;
+}
+
+.blocos-inferior .bloco3{
+  display: flex;
+  float: left;
+  width: 500px;
+  height: 170px;
+  border:3px solid #fed365;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-left: 100px;
+  background-color: white;
+}
+
+.blocos-inferior .bloco4{
+  display: flex;
+  float: right;
+  width: 500px;
+  height: 170px;
+  border:3px solid #fed365;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-right: 100px;
+  background-color: white;
+}
+
+.list-jogadores{
+  background-color: var(--cor3);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.tabela{
+  width: 40%;
+}
+
+.container{
+  padding-top: 5px;
+}
+
 .title {
     text-align: center;
     margin: 2rem 0;
@@ -8,7 +131,7 @@
   }
   .form-input input {
     width: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 0 0.5rem;
     height: 40px;
@@ -16,7 +139,7 @@
   .form-input button {
     height: 40px;
     margin-left: 1%;
-    background-color: gray;
+    background-color: var(--cor2);
     font-weight: bold;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -28,20 +151,21 @@
     margin: 2rem 0;
   }
   table {
-    width: 40%;
+    width: 60%;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    background-color: var(--cor1);
   }
   table thead {
-    background-color: gray;
-    color: rgb(255, 255, 255);
+    background-color: var(--cor1);
+    color: black;
   }
   table thead th {
     font-weight: bolder;
   }
   table tbody tr:nth-child(odd) {
-    background-color: gray;
+    background-color: var(--cor5);
     border-radius: 2px black;
   }
   h2 {
